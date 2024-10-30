@@ -14,16 +14,29 @@ public class Course {
     @Column(nullable = false, length = 255)
     private String title;
 
+    @Column( length = 255)
+    private String videoUrl;
+
+
     @OneToMany(mappedBy = "course", cascade = CascadeType.ALL, orphanRemoval = true)
     private List<Module> modules = new ArrayList<>();
 
     public Course() {
     }
 
-    public Course(int courseId, String title, List<Module> modules) {
+    public Course(int courseId, String title, String videoUrl, List<Module> modules) {
         this.courseId = courseId;
         this.title = title;
+        this.videoUrl = videoUrl;
         this.modules = modules;
+    }
+
+    public String getVideoUrl() {
+        return videoUrl;
+    }
+
+    public void setVideoUrl(String videoUrl) {
+        this.videoUrl = videoUrl;
     }
 
     public int getCourseId() {

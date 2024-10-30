@@ -40,7 +40,7 @@ public class SessionController {
             ObjectMapper objectMapper = new ObjectMapper();
             SessionDTO dto= objectMapper.readValue(dtoJson, SessionDTO.class);
 
-            String userUploadDir = uploadDir + File.separator + "class";
+            String userUploadDir = uploadDir + File.separator + "session";
             Path userUploadPath = Paths.get(userUploadDir);
             if (!Files.exists(userUploadPath)) {
                 Files.createDirectories(userUploadPath);
@@ -58,10 +58,10 @@ public class SessionController {
             ModelMapper modelMapper = new ModelMapper();
             Session classes = modelMapper.map(dto, Session.class);
             // Establecer la ruta del archivo en la entidad
-            classes.setResourceDocument("class/"+originalFilename);
+            classes.setResourceDocument("/uploads/session/" +originalFilename);
             cS.insert(classes);
 
-            return ResponseEntity.ok("Clase guardado correctamente");
+            return ResponseEntity.ok("Sesión guardado correctamente");
         } catch (IOException e) {
             return ResponseEntity.status(HttpStatus.INTERNAL_SERVER_ERROR).body("Error al guardar el archivo de imagen: " + e.getMessage());
         } catch (Exception e) {
