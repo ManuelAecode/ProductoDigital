@@ -7,7 +7,6 @@ public class SessionDTO {
     private String title;
     private String videoUrl;
     private String description;
-    private String resourceText;
     private String resourceDocument;
     private int orderNumber;
     private String taskName;
@@ -53,14 +52,6 @@ public class SessionDTO {
 
     public void setDescription(String description) {
         this.description = description;
-    }
-
-    public String getResourceText() {
-        return resourceText;
-    }
-
-    public void setResourceText(String resourceText) {
-        this.resourceText = resourceText;
     }
 
     public String getResourceDocument() {

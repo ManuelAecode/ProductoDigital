@@ -23,9 +23,6 @@ public class Session {
     @Column(columnDefinition = "TEXT")
     private String description;
 
-    @Column(columnDefinition = "TEXT")
-    private String resourceText;
-
     @Column( length = 255)
     private String resourceDocument;
  
@@ -44,13 +41,12 @@ public class Session {
     public Session() {
     }
 
-    public Session(int sessionId, Unit unit, String title, String videoUrl, String description, String resourceText, String resourceDocument, int orderNumber, SessionTest sessiontests, String taskName, String taskUrl) {
+    public Session(int sessionId, Unit unit, String title, String videoUrl, String description, String resourceDocument, int orderNumber, SessionTest sessiontests, String taskName, String taskUrl) {
         this.sessionId = sessionId;
         this.unit = unit;
         this.title = title;
         this.videoUrl = videoUrl;
         this.description = description;
-        this.resourceText = resourceText;
         this.resourceDocument = resourceDocument;
         this.orderNumber = orderNumber;
         this.sessiontests = sessiontests;
@@ -96,14 +92,6 @@ public class Session {
 
     public void setDescription(String description) {
         this.description = description;
-    }
-
-    public String getResourceText() {
-        return resourceText;
-    }
-
-    public void setResourceText(String resourceText) {
-        this.resourceText = resourceText;
     }
 
     public String getResourceDocument() {

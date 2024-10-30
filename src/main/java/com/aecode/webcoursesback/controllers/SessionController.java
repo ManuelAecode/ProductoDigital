@@ -75,7 +75,7 @@ public class SessionController {
         return cS.findByTitle(title).stream().map(session -> {
             ModelMapper m = new ModelMapper();
             SessionDTO dto = m.map(session, SessionDTO.class);
-            dto.setHtmlContent(cS.wrapInHtml(session.getResourceText()));
+            dto.setHtmlContent(cS.wrapInHtml(session.getDescription()));
             return dto;
         }).collect(Collectors.toList());
     }
@@ -85,7 +85,7 @@ public class SessionController {
         return cS.list().stream().map(session -> {
             ModelMapper m = new ModelMapper();
             SessionDTO dto = m.map(session, SessionDTO.class);
-            dto.setHtmlContent(cS.wrapInHtml(session.getResourceText()));
+            dto.setHtmlContent(cS.wrapInHtml(session.getDescription()));
             return dto;
         }).collect(Collectors.toList());
     }
@@ -102,7 +102,7 @@ public class SessionController {
             throw new ResponseStatusException(HttpStatus.NOT_FOUND, "Sesión no encontrada");
         }
         SessionDTO dto = m.map(session, SessionDTO.class);
-        dto.setHtmlContent(cS.wrapInHtml(session.getResourceText())); // aqui se añade el HTML formateado
+        dto.setHtmlContent(cS.wrapInHtml(session.getDescription())); // aqui se añade el HTML formateado
         return dto;
     }
     @PutMapping(consumes = MediaType.MULTIPART_FORM_DATA_VALUE)
