@@ -40,28 +40,15 @@ public class SessionServiceImp implements ISessionService {
 
     @Override
     public String wrapInHtml(String resourceText) {
+        String paragraphStyle = "font-family: 'Plus Jakarta Sans', sans-serif; font-size: 14px; color: #000; line-height: 24px; text-align: justify; font-style: normal; font-weight: 300; margin-bottom: 15px;";
+
+        // Construcción del contenido de párrafos con el estilo en cada <p>
         StringBuilder htmlBuilder = new StringBuilder();
-        htmlBuilder.append("<!DOCTYPE html>");
-        htmlBuilder.append("<html lang='es'>");
-        htmlBuilder.append("<head>");
-        htmlBuilder.append("<meta charset='UTF-8'>");
-        htmlBuilder.append("<title>Descripción de la Sesión</title>");
-        htmlBuilder.append("<link href='https://fonts.googleapis.com/css?family=Plus+Jakarta+Sans&display=swap' rel='stylesheet'>");
-        htmlBuilder.append("<style>");
-        htmlBuilder.append("body { font-family: 'Plus Jakarta Sans', sans-serif; font-size: 14px; color: #000; line-height: 24px; text-align: justify; font-style: normal; font-weight: 300; }");
-        htmlBuilder.append("p { margin-bottom: 15px; }");
-        htmlBuilder.append("</style>");
-        htmlBuilder.append("</head>");
-        htmlBuilder.append("<body>");
-
-        // Agrega cada párrafo con un tag <p>
         String[] paragraphs = resourceText.split("\n\n");
-        for (String paragraph : paragraphs) {
-            htmlBuilder.append("<p>").append(paragraph).append("</p>");
-        }
 
-        htmlBuilder.append("</body>");
-        htmlBuilder.append("</html>");
+        for (String paragraph : paragraphs) {
+            htmlBuilder.append("<p style=\"").append(paragraphStyle).append("\">").append(paragraph).append("</p>");
+        }
 
         return htmlBuilder.toString();
     }
