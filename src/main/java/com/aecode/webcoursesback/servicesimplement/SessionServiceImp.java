@@ -41,15 +41,19 @@ public class SessionServiceImp implements ISessionService {
     @Override
     public String wrapInHtml(String resourceText) {
         String paragraphStyle = "font-family: 'Plus Jakarta Sans', sans-serif; font-size: 14px; color: #000; line-height: 24px; text-align: justify; font-style: normal; font-weight: 300; margin-bottom: 15px;";
+        String containerStyle = "text-align: justify;"; // Estilo adicional para justificación
 
         // Construcción del contenido de párrafos con el estilo en cada <p>
         StringBuilder htmlBuilder = new StringBuilder();
+        htmlBuilder.append("<div style=\"").append(containerStyle).append("\">"); // Agrega un contenedor div
         String[] paragraphs = resourceText.split("\n\n");
 
         for (String paragraph : paragraphs) {
             htmlBuilder.append("<p style=\"").append(paragraphStyle).append("\">").append(paragraph).append("</p>");
         }
 
+        htmlBuilder.append("</div>"); // Cierra el contenedor div
         return htmlBuilder.toString();
     }
+
 }
