@@ -117,10 +117,10 @@ public class SessionController {
             // Obtener la clase existente desde la base de datos
             Session existingSession = cS.listId(dto.getSessionId());
             if (existingSession == null) {
-                return ResponseEntity.status(HttpStatus.NOT_FOUND).body("Clase no encontrada");
+                return ResponseEntity.status(HttpStatus.NOT_FOUND).body("Sesion no encontrada");
             }
 
-            String userUploadDir = uploadDir + File.separator + "class";
+            String userUploadDir = uploadDir + File.separator + "session";
             Path userUploadPath = Paths.get(userUploadDir);
             if (!Files.exists(userUploadPath)) {
                 Files.createDirectories(userUploadPath);
@@ -135,7 +135,7 @@ public class SessionController {
                 Files.write(path, bytes);
 
                 // Actualizar la ruta del documento en la entidad
-                existingSession.setResourceDocument("class/" + originalFilename);
+                existingSession.setResourceDocument("/uploads/session/" + originalFilename);
             }
 
             // Actualizar otros datos de la clase
@@ -145,14 +145,11 @@ public class SessionController {
             // Guardar los cambios en la base de datos
             cS.insert(existingSession);
 
-            return ResponseEntity.ok("Clase actualizada correctamente");
+            return ResponseEntity.ok("Sesion actualizada correctamente");
         } catch (IOException e) {
             return ResponseEntity.status(HttpStatus.INTERNAL_SERVER_ERROR).body("Error al guardar el archivo de documento: " + e.getMessage());
         } catch (Exception e) {
-            return ResponseEntity.status(HttpStatus.INTERNAL_SERVER_ERROR).body("Error al actualizar la clase: " + e.getMessage());
+            return ResponseEntity.status(HttpStatus.INTERNAL_SERVER_ERROR).body("Error al actualizar la sesion: " + e.getMessage());
         }
     }
-
-
-
 }

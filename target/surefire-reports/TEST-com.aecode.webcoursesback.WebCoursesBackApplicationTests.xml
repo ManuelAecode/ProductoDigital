@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="com.aecode.webcoursesback.WebCoursesBackApplicationTests" time="26.929" tests="1" errors="0" skipped="0" failures="0">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="com.aecode.webcoursesback.WebCoursesBackApplicationTests" time="24.501" tests="1" errors="0" skipped="0" failures="0">
   <properties>
     <property name="java.specification.version" value="17"/>
     <property name="sun.cpu.isalist" value="amd64"/>
@@ -16,7 +16,7 @@
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="user.country" value="PE"/>
     <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk-17.0.7\bin"/>
-    <property name="sun.java.command" value="C:\Users\MANUEL\AppData\Local\Temp\surefire3063492505052904622\surefirebooter-20241030115252360_3.jar C:\Users\MANUEL\AppData\Local\Temp\surefire3063492505052904622 2024-10-30T11-52-51_990-jvmRun1 surefire-20241030115252360_1tmp surefire_0-20241030115252360_2tmp"/>
+    <property name="sun.java.command" value="C:\Users\MANUEL\AppData\Local\Temp\surefire10526640399415857099\surefirebooter-20241030121424714_3.jar C:\Users\MANUEL\AppData\Local\Temp\surefire10526640399415857099 2024-10-30T12-14-24_399-jvmRun1 surefire-20241030121424714_1tmp surefire_0-20241030121424714_2tmp"/>
     <property name="jdk.debug" value="release"/>
     <property name="surefire.test.class.path" value="C:\Users\MANUEL\Desktop\WebCoursesBack\target\test-classes;C:\Users\MANUEL\Desktop\WebCoursesBack\target\classes;C:\Users\MANUEL\.m2\repository\org\springframework\boot\spring-boot-starter-data-jpa\3.3.3\spring-boot-starter-data-jpa-3.3.3.jar;C:\Users\MANUEL\.m2\repository\org\springframework\boot\spring-boot-starter-aop\3.3.3\spring-boot-starter-aop-3.3.3.jar;C:\Users\MANUEL\.m2\repository\org\springframework\spring-aop\6.1.12\spring-aop-6.1.12.jar;C:\Users\MANUEL\.m2\repository\org\aspectj\aspectjweaver\1.9.22.1\aspectjweaver-1.9.22.1.jar;C:\Users\MANUEL\.m2\repository\org\springframework\boot\spring-boot-starter-jdbc\3.3.3\spring-boot-starter-jdbc-3.3.3.jar;C:\Users\MANUEL\.m2\repository\com\zaxxer\HikariCP\5.1.0\HikariCP-5.1.0.jar;C:\Users\MANUEL\.m2\repository\org\springframework\spring-jdbc\6.1.12\spring-jdbc-6.1.12.jar;C:\Users\MANUEL\.m2\repository\org\hibernate\orm\hibernate-core\6.5.2.Final\hibernate-core-6.5.2.Final.jar;C:\Users\MANUEL\.m2\repository\jakarta\persistence\jakarta.persistence-api\3.1.0\jakarta.persistence-api-3.1.0.jar;C:\Users\MANUEL\.m2\repository\jakarta\transaction\jakarta.transaction-api\2.0.1\jakarta.transaction-api-2.0.1.jar;C:\Users\MANUEL\.m2\repository\org\jboss\logging\jboss-logging\3.5.3.Final\jboss-logging-3.5.3.Final.jar;C:\Users\MANUEL\.m2\repository\org\hibernate\common\hibernate-commons-annotations\6.0.6.Final\hibernate-commons-annotations-6.0.6.Final.jar;C:\Users\MANUEL\.m2\repository\io\smallrye\jandex\3.1.2\jandex-3.1.2.jar;C:\Users\MANUEL\.m2\repository\com\fasterxml\classmate\1.7.0\classmate-1.7.0.jar;C:\Users\MANUEL\.m2\repository\net\bytebuddy\byte-buddy\1.14.19\byte-buddy-1.14.19.jar;C:\Users\MANUEL\.m2\repository\org\glassfish\jaxb\jaxb-runtime\4.0.5\jaxb-runtime-4.0.5.jar;C:\Users\MANUEL\.m2\repository\org\glassfish\jaxb\jaxb-core\4.0.5\jaxb-core-4.0.5.jar;C:\Users\MANUEL\.m2\repository\org\eclipse\angus\angus-activation\2.0.2\angus-activation-2.0.2.jar;C:\Users\MANUEL\.m2\repository\org\glassfish\jaxb\txw2\4.0.5\txw2-4.0.5.jar;C:\Users\MANUEL\.m2\repository\com\sun\istack\istack-commons-runtime\4.1.2\istack-commons-runtime-4.1.2.jar;C:\Users\MANUEL\.m2\repository\jakarta\inject\jakarta.inject-api\2.0.1\jakarta.inject-api-2.0.1.jar;C:\Users\MANUEL\.m2\repository\org\antlr\antlr4-runtime\4.13.0\antlr4-runtime-4.13.0.jar;C:\Users\MANUEL\.m2\repository\org\springframework\data\spring-data-jpa\3.3.3\spring-data-jpa-3.3.3.jar;C:\Users\MANUEL\.m2\repository\org\springframework\data\spring-data-commons\3.3.3\spring-data-commons-3.3.3.jar;C:\Users\MANUEL\.m2\repository\org\springframework\spring-orm\6.1.12\spring-orm-6.1.12.jar;C:\Users\MANUEL\.m2\repository\org\springframework\spring-context\6.1.12\spring-context-6.1.12.jar;C:\Users\MANUEL\.m2\repository\org\springframework\spring-tx\6.1.12\spring-tx-6.1.12.jar;C:\Users\MANUEL\.m2\repository\org\springframework\spring-beans\6.1.12\spring-beans-6.1.12.jar;C:\Users\MANUEL\.m2\repository\org\slf4j\slf4j-api\2.0.16\slf4j-api-2.0.16.jar;C:\Users\MANUEL\.m2\repository\org\springframework\spring-aspects\6.1.12\spring-aspects-6.1.12.jar;C:\Users\MANUEL\.m2\repository\org\springframework\boot\spring-boot-starter-web\3.3.3\spring-boot-starter-web-3.3.3.jar;C:\Users\MANUEL\.m2\repository\org\springframework\boot\spring-boot-starter\3.3.3\spring-boot-starter-3.3.3.jar;C:\Users\MANUEL\.m2\repository\org\springframework\boot\spring-boot-starter-logging\3.3.3\spring-boot-starter-logging-3.3.3.jar;C:\Users\MANUEL\.m2\repository\ch\qos\logback\logback-classic\1.5.7\logback-classic-1.5.7.jar;C:\Users\MANUEL\.m2\repository\ch\qos\logback\logback-core\1.5.7\logback-core-1.5.7.jar;C:\Users\MANUEL\.m2\repository\org\apache\logging\log4j\log4j-to-slf4j\2.23.1\log4j-to-slf4j-2.23.1.jar;C:\Users\MANUEL\.m2\repository\org\slf4j\jul-to-slf4j\2.0.16\jul-to-slf4j-2.0.16.jar;C:\Users\MANUEL\.m2\repository\org\yaml\snakeyaml\2.2\snakeyaml-2.2.jar;C:\Users\MANUEL\.m2\repository\org\springframework\spring-web\6.1.12\spring-web-6.1.12.jar;C:\Users\MANUEL\.m2\repository\io\micrometer\micrometer-observation\1.13.3\micrometer-observation-1.13.3.jar;C:\Users\MANUEL\.m2\repository\io\micrometer\micrometer-commons\1.13.3\micrometer-commons-1.13.3.jar;C:\Users\MANUEL\.m2\repository\org\springframework\spring-webmvc\6.1.12\spring-webmvc-6.1.12.jar;C:\Users\MANUEL\.m2\repository\org\springframework\spring-expression\6.1.12\spring-expression-6.1.12.jar;C:\Users\MANUEL\.m2\repository\org\springframework\boot\spring-boot-devtools\3.3.3\spring-boot-devtools-3.3.3.jar;C:\Users\MANUEL\.m2\repository\org\springframework\boot\spring-boot\3.3.3\spring-boot-3.3.3.jar;C:\Users\MANUEL\.m2\repository\org\springframework\boot\spring-boot-autoconfigure\3.3.3\spring-boot-autoconfigure-3.3.3.jar;C:\Users\MANUEL\.m2\repository\org\postgresql\postgresql\42.7.3\postgresql-42.7.3.jar;C:\Users\MANUEL\.m2\repository\org\checkerframework\checker-qual\3.42.0\checker-qual-3.42.0.jar;C:\Users\MANUEL\.m2\repository\org\springframework\boot\spring-boot-starter-tomcat\3.3.3\spring-boot-starter-tomcat-3.3.3.jar;C:\Users\MANUEL\.m2\repository\jakarta\annotation\jakarta.annotation-api\2.1.1\jakarta.annotation-api-2.1.1.jar;C:\Users\MANUEL\.m2\repository\org\apache\tomcat\embed\tomcat-embed-core\10.1.28\tomcat-embed-core-10.1.28.jar;C:\Users\MANUEL\.m2\repository\org\apache\tomcat\embed\tomcat-embed-el\10.1.28\tomcat-embed-el-10.1.28.jar;C:\Users\MANUEL\.m2\repository\org\apache\tomcat\embed\tomcat-embed-websocket\10.1.28\tomcat-embed-websocket-10.1.28.jar;C:\Users\MANUEL\.m2\repository\org\springframework\boot\spring-boot-starter-test\3.3.3\spring-boot-starter-test-3.3.3.jar;C:\Users\MANUEL\.m2\repository\org\springframework\boot\spring-boot-test\3.3.3\spring-boot-test-3.3.3.jar;C:\Users\MANUEL\.m2\repository\org\springframework\boot\spring-boot-test-autoconfigure\3.3.3\spring-boot-test-autoconfigure-3.3.3.jar;C:\Users\MANUEL\.m2\repository\com\jayway\jsonpath\json-path\2.9.0\json-path-2.9.0.jar;C:\Users\MANUEL\.m2\repository\jakarta\xml\bind\jakarta.xml.bind-api\4.0.2\jakarta.xml.bind-api-4.0.2.jar;C:\Users\MANUEL\.m2\repository\jakarta\activation\jakarta.activation-api\2.1.3\jakarta.activation-api-2.1.3.jar;C:\Users\MANUEL\.m2\repository\net\minidev\json-smart\2.5.1\json-smart-2.5.1.jar;C:\Users\MANUEL\.m2\repository\net\minidev\accessors-smart\2.5.1\accessors-smart-2.5.1.jar;C:\Users\MANUEL\.m2\repository\org\ow2\asm\asm\9.6\asm-9.6.jar;C:\Users\MANUEL\.m2\repository\org\assertj\assertj-core\3.25.3\assertj-core-3.25.3.jar;C:\Users\MANUEL\.m2\repository\org\awaitility\awaitility\4.2.2\awaitility-4.2.2.jar;C:\Users\MANUEL\.m2\repository\org\hamcrest\hamcrest\2.2\hamcrest-2.2.jar;C:\Users\MANUEL\.m2\repository\org\junit\jupiter\junit-jupiter\5.10.3\junit-jupiter-5.10.3.jar;C:\Users\MANUEL\.m2\repository\org\junit\jupiter\junit-jupiter-api\5.10.3\junit-jupiter-api-5.10.3.jar;C:\Users\MANUEL\.m2\repository\org\opentest4j\opentest4j\1.3.0\opentest4j-1.3.0.jar;C:\Users\MANUEL\.m2\repository\org\junit\platform\junit-platform-commons\1.10.3\junit-platform-commons-1.10.3.jar;C:\Users\MANUEL\.m2\repository\org\apiguardian\apiguardian-api\1.1.2\apiguardian-api-1.1.2.jar;C:\Users\MANUEL\.m2\repository\org\junit\jupiter\junit-jupiter-params\5.10.3\junit-jupiter-params-5.10.3.jar;C:\Users\MANUEL\.m2\repository\org\junit\jupiter\junit-jupiter-engine\5.10.3\junit-jupiter-engine-5.10.3.jar;C:\Users\MANUEL\.m2\repository\org\junit\platform\junit-platform-engine\1.10.3\junit-platform-engine-1.10.3.jar;C:\Users\MANUEL\.m2\repository\org\mockito\mockito-core\5.11.0\mockito-core-5.11.0.jar;C:\Users\MANUEL\.m2\repository\net\bytebuddy\byte-buddy-agent\1.14.19\byte-buddy-agent-1.14.19.jar;C:\Users\MANUEL\.m2\repository\org\objenesis\objenesis\3.3\objenesis-3.3.jar;C:\Users\MANUEL\.m2\repository\org\mockito\mockito-junit-jupiter\5.11.0\mockito-junit-jupiter-5.11.0.jar;C:\Users\MANUEL\.m2\repository\org\skyscreamer\jsonassert\1.5.3\jsonassert-1.5.3.jar;C:\Users\MANUEL\.m2\repository\com\vaadin\external\google\android-json\0.0.20131108.vaadin1\android-json-0.0.20131108.vaadin1.jar;C:\Users\MANUEL\.m2\repository\org\springframework\spring-core\6.1.12\spring-core-6.1.12.jar;C:\Users\MANUEL\.m2\repository\org\springframework\spring-jcl\6.1.12\spring-jcl-6.1.12.jar;C:\Users\MANUEL\.m2\repository\org\springframework\spring-test\6.1.12\spring-test-6.1.12.jar;C:\Users\MANUEL\.m2\repository\org\xmlunit\xmlunit-core\2.9.1\xmlunit-core-2.9.1.jar;C:\Users\MANUEL\.m2\repository\org\modelmapper\modelmapper\3.1.1\modelmapper-3.1.1.jar;C:\Users\MANUEL\.m2\repository\org\springdoc\springdoc-openapi-starter-webmvc-ui\2.1.0\springdoc-openapi-starter-webmvc-ui-2.1.0.jar;C:\Users\MANUEL\.m2\repository\org\springdoc\springdoc-openapi-starter-webmvc-api\2.1.0\springdoc-openapi-starter-webmvc-api-2.1.0.jar;C:\Users\MANUEL\.m2\repository\org\springdoc\springdoc-openapi-starter-common\2.1.0\springdoc-openapi-starter-common-2.1.0.jar;C:\Users\MANUEL\.m2\repository\io\swagger\core\v3\swagger-core-jakarta\2.2.9\swagger-core-jakarta-2.2.9.jar;C:\Users\MANUEL\.m2\repository\org\apache\commons\commons-lang3\3.14.0\commons-lang3-3.14.0.jar;C:\Users\MANUEL\.m2\repository\io\swagger\core\v3\swagger-annotations-jakarta\2.2.9\swagger-annotations-jakarta-2.2.9.jar;C:\Users\MANUEL\.m2\repository\io\swagger\core\v3\swagger-models-jakarta\2.2.9\swagger-models-jakarta-2.2.9.jar;C:\Users\MANUEL\.m2\repository\com\fasterxml\jackson\dataformat\jackson-dataformat-yaml\2.17.2\jackson-dataformat-yaml-2.17.2.jar;C:\Users\MANUEL\.m2\repository\org\webjars\swagger-ui\4.18.2\swagger-ui-4.18.2.jar;C:\Users\MANUEL\.m2\repository\jakarta\servlet\jakarta.servlet-api\6.0.0\jakarta.servlet-api-6.0.0.jar;C:\Users\MANUEL\.m2\repository\com\fasterxml\jackson\datatype\jackson-datatype-jsr310\2.13.0\jackson-datatype-jsr310-2.13.0.jar;C:\Users\MANUEL\.m2\repository\org\springframework\boot\spring-boot-starter-validation\3.3.3\spring-boot-starter-validation-3.3.3.jar;C:\Users\MANUEL\.m2\repository\org\hibernate\validator\hibernate-validator\8.0.1.Final\hibernate-validator-8.0.1.Final.jar;C:\Users\MANUEL\.m2\repository\jakarta\validation\jakarta.validation-api\3.0.2\jakarta.validation-api-3.0.2.jar;C:\Users\MANUEL\.m2\repository\org\springframework\boot\spring-boot-starter-json\3.3.3\spring-boot-starter-json-3.3.3.jar;C:\Users\MANUEL\.m2\repository\com\fasterxml\jackson\datatype\jackson-datatype-jdk8\2.17.2\jackson-datatype-jdk8-2.17.2.jar;C:\Users\MANUEL\.m2\repository\com\fasterxml\jackson\module\jackson-module-parameter-names\2.17.2\jackson-module-parameter-names-2.17.2.jar;C:\Users\MANUEL\.m2\repository\com\fasterxml\jackson\core\jackson-databind\2.17.2\jackson-databind-2.17.2.jar;C:\Users\MANUEL\.m2\repository\com\fasterxml\jackson\core\jackson-annotations\2.17.2\jackson-annotations-2.17.2.jar;C:\Users\MANUEL\.m2\repository\com\fasterxml\jackson\core\jackson-core\2.17.2\jackson-core-2.17.2.jar;C:\Users\MANUEL\.m2\repository\org\apache\poi\poi-ooxml\5.2.3\poi-ooxml-5.2.3.jar;C:\Users\MANUEL\.m2\repository\org\apache\poi\poi\5.2.3\poi-5.2.3.jar;C:\Users\MANUEL\.m2\repository\commons-codec\commons-codec\1.16.1\commons-codec-1.16.1.jar;C:\Users\MANUEL\.m2\repository\org\apache\commons\commons-math3\3.6.1\commons-math3-3.6.1.jar;C:\Users\MANUEL\.m2\repository\com\zaxxer\SparseBitSet\1.2\SparseBitSet-1.2.jar;C:\Users\MANUEL\.m2\repository\org\apache\poi\poi-ooxml-lite\5.2.3\poi-ooxml-lite-5.2.3.jar;C:\Users\MANUEL\.m2\repository\org\apache\xmlbeans\xmlbeans\5.1.1\xmlbeans-5.1.1.jar;C:\Users\MANUEL\.m2\repository\org\apache\commons\commons-compress\1.21\commons-compress-1.21.jar;C:\Users\MANUEL\.m2\repository\commons-io\commons-io\2.11.0\commons-io-2.11.0.jar;C:\Users\MANUEL\.m2\repository\com\github\virtuald\curvesapi\1.07\curvesapi-1.07.jar;C:\Users\MANUEL\.m2\repository\org\apache\logging\log4j\log4j-api\2.23.1\log4j-api-2.23.1.jar;C:\Users\MANUEL\.m2\repository\org\apache\commons\commons-collections4\4.4\commons-collections4-4.4.jar;"/>
     <property name="sun.cpu.endian" value="little"/>
@@ -33,7 +33,7 @@
     <property name="java.specification.name" value="Java Platform API Specification"/>
     <property name="FILE_LOG_CHARSET" value="windows-1252"/>
     <property name="java.awt.headless" value="true"/>
-    <property name="surefire.real.class.path" value="C:\Users\MANUEL\AppData\Local\Temp\surefire3063492505052904622\surefirebooter-20241030115252360_3.jar"/>
+    <property name="surefire.real.class.path" value="C:\Users\MANUEL\AppData\Local\Temp\surefire10526640399415857099\surefirebooter-20241030121424714_3.jar"/>
     <property name="user.script" value=""/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
     <property name="java.runtime.version" value="17.0.7+8-LTS-224"/>
@@ -51,7 +51,7 @@
     <property name="user.dir" value="C:\Users\MANUEL\Desktop\WebCoursesBack"/>
     <property name="os.arch" value="amd64"/>
     <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
-    <property name="PID" value="20652"/>
+    <property name="PID" value="18720"/>
     <property name="sun.os.patch.level" value=""/>
     <property name="CONSOLE_LOG_CHARSET" value="windows-1252"/>
     <property name="native.encoding" value="Cp1252"/>
@@ -63,10 +63,10 @@
     <property name="java.class.version" value="61.0"/>
     <property name="LOGGED_APPLICATION_NAME" value="[WebCoursesBack] "/>
   </properties>
-  <testcase name="contextLoads" classname="com.aecode.webcoursesback.WebCoursesBackApplicationTests" time="0.774">
-    <system-out><![CDATA[11:52:54.080 [main] INFO org.springframework.test.context.support.AnnotationConfigContextLoaderUtils -- Could not detect default configuration classes for test class [com.aecode.webcoursesback.WebCoursesBackApplicationTests]: WebCoursesBackApplicationTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
-11:52:54.288 [main] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper -- Found @SpringBootConfiguration com.aecode.webcoursesback.WebCoursesBackApplication for test class com.aecode.webcoursesback.WebCoursesBackApplicationTests
-11:52:54.634 [main] INFO org.springframework.boot.devtools.restart.RestartApplicationListener -- Restart disabled due to context in which it is running
+  <testcase name="contextLoads" classname="com.aecode.webcoursesback.WebCoursesBackApplicationTests" time="0.839">
+    <system-out><![CDATA[12:14:26.227 [main] INFO org.springframework.test.context.support.AnnotationConfigContextLoaderUtils -- Could not detect default configuration classes for test class [com.aecode.webcoursesback.WebCoursesBackApplicationTests]: WebCoursesBackApplicationTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+12:14:26.412 [main] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper -- Found @SpringBootConfiguration com.aecode.webcoursesback.WebCoursesBackApplication for test class com.aecode.webcoursesback.WebCoursesBackApplicationTests
+12:14:26.710 [main] INFO org.springframework.boot.devtools.restart.RestartApplicationListener -- Restart disabled due to context in which it is running
 
   .   ____          _            __ _ _
  /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
@@ -77,302 +77,32 @@
 
  :: Spring Boot ::                (v3.3.3)
 
-2024-10-30T11:52:55.106-05:00  INFO 20652 --- [WebCoursesBack] [           main] c.a.w.WebCoursesBackApplicationTests     : Starting WebCoursesBackApplicationTests using Java 17.0.7 with PID 20652 (started by MANUEL in C:\Users\MANUEL\Desktop\WebCoursesBack)
-2024-10-30T11:52:55.110-05:00  INFO 20652 --- [WebCoursesBack] [           main] c.a.w.WebCoursesBackApplicationTests     : No active profile set, falling back to 1 default profile: "default"
-2024-10-30T11:52:56.666-05:00  INFO 20652 --- [WebCoursesBack] [           main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
-2024-10-30T11:52:56.826-05:00  INFO 20652 --- [WebCoursesBack] [           main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 141 ms. Found 10 JPA repository interfaces.
-2024-10-30T11:52:57.795-05:00  INFO 20652 --- [WebCoursesBack] [           main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
-2024-10-30T11:52:57.965-05:00  INFO 20652 --- [WebCoursesBack] [           main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.5.2.Final
-2024-10-30T11:52:58.055-05:00  INFO 20652 --- [WebCoursesBack] [           main] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
-2024-10-30T11:52:58.855-05:00  INFO 20652 --- [WebCoursesBack] [           main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
-2024-10-30T11:52:58.919-05:00  INFO 20652 --- [WebCoursesBack] [           main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
-2024-10-30T11:53:01.097-05:00  INFO 20652 --- [WebCoursesBack] [           main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@34b2d51a
-2024-10-30T11:53:01.100-05:00  INFO 20652 --- [WebCoursesBack] [           main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
-2024-10-30T11:53:01.318-05:00  WARN 20652 --- [WebCoursesBack] [           main] org.hibernate.orm.deprecation            : HHH90000025: PostgreSQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
-2024-10-30T11:53:03.588-05:00  INFO 20652 --- [WebCoursesBack] [           main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
-Hibernate: 
-    alter table if exists modules 
-       drop constraint if exists FK8qnnp812q1jd38fx7mxrhpw9
-Hibernate: 
-    alter table if exists relatedworks 
-       drop constraint if exists FK1lupmiqwhregmpv09owoxd35x
-Hibernate: 
-    alter table if exists sessionanswers 
-       drop constraint if exists FKacyqh85bgd6dsum7ynufogatk
+2024-10-30T12:14:27.209-05:00  INFO 18720 --- [WebCoursesBack] [           main] c.a.w.WebCoursesBackApplicationTests     : Starting WebCoursesBackApplicationTests using Java 17.0.7 with PID 18720 (started by MANUEL in C:\Users\MANUEL\Desktop\WebCoursesBack)
+2024-10-30T12:14:27.214-05:00  INFO 18720 --- [WebCoursesBack] [           main] c.a.w.WebCoursesBackApplicationTests     : No active profile set, falling back to 1 default profile: "default"
+2024-10-30T12:14:28.981-05:00  INFO 18720 --- [WebCoursesBack] [           main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-10-30T12:14:29.163-05:00  INFO 18720 --- [WebCoursesBack] [           main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 166 ms. Found 10 JPA repository interfaces.
+2024-10-30T12:14:30.203-05:00  INFO 18720 --- [WebCoursesBack] [           main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-10-30T12:14:30.372-05:00  INFO 18720 --- [WebCoursesBack] [           main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.5.2.Final
+2024-10-30T12:14:30.529-05:00  INFO 18720 --- [WebCoursesBack] [           main] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2024-10-30T12:14:31.569-05:00  INFO 18720 --- [WebCoursesBack] [           main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-10-30T12:14:31.636-05:00  INFO 18720 --- [WebCoursesBack] [           main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2024-10-30T12:14:33.821-05:00  INFO 18720 --- [WebCoursesBack] [           main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@350567f1
+2024-10-30T12:14:33.824-05:00  INFO 18720 --- [WebCoursesBack] [           main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2024-10-30T12:14:34.049-05:00  WARN 18720 --- [WebCoursesBack] [           main] org.hibernate.orm.deprecation            : HHH90000025: PostgreSQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2024-10-30T12:14:36.605-05:00  INFO 18720 --- [WebCoursesBack] [           main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
 Hibernate: 
     alter table if exists sessions 
-       drop constraint if exists FKr3dhrnvgebjhx0xf5dnqig4iv
+       alter column description set data type TEXT
 Hibernate: 
     alter table if exists sessiontests 
-       drop constraint if exists FKpj0wn0d3w003xwq29ucxfcpci
-Hibernate: 
-    alter table if exists units 
-       drop constraint if exists FKbbvsojstiwhfev2tq8knmg6dh
-Hibernate: 
-    alter table if exists usercourseaccess 
-       drop constraint if exists FKtnu263gg8ta5k2hmf8cctordc
-Hibernate: 
-    alter table if exists usercourseaccess 
-       drop constraint if exists FKhn1gh982e81usmwpvsb1lmu94
+       alter column question_text set data type TEXT
 Hibernate: 
     alter table if exists userdetail 
-       drop constraint if exists FKndu78w1fnmxhw4nqnaryxhtpt
-Hibernate: 
-    alter table if exists userprogresssessions 
-       drop constraint if exists FK5pknth091n8tavo7fn9ysj2vg
-Hibernate: 
-    alter table if exists userprogresssessions 
-       drop constraint if exists FKs2fvwunu8l7rul8dty6luxjll
-Hibernate: 
-    alter table if exists userprogressunit 
-       drop constraint if exists FKhyqo3te18606okxcm1jn33dyp
-Hibernate: 
-    alter table if exists userprogressunit 
-       drop constraint if exists FKexp6l1w0lj0svsy0nixufg70r
-Hibernate: 
-    drop table if exists courses cascade
-Hibernate: 
-    drop table if exists modules cascade
-Hibernate: 
-    drop table if exists relatedworks cascade
-Hibernate: 
-    drop table if exists sessionanswers cascade
-Hibernate: 
-    drop table if exists sessions cascade
-Hibernate: 
-    drop table if exists sessiontests cascade
-Hibernate: 
-    drop table if exists units cascade
-Hibernate: 
-    drop table if exists usercourseaccess cascade
-Hibernate: 
-    drop table if exists userdetail cascade
-Hibernate: 
-    drop table if exists userprofiles cascade
-Hibernate: 
-    drop table if exists userprogresssessions cascade
-Hibernate: 
-    drop table if exists userprogressunit cascade
-Hibernate: 
-    drop sequence if exists access_sequence
-Hibernate: 
-    drop sequence if exists course_sequence
-Hibernate: 
-    drop sequence if exists module_sequence
-Hibernate: 
-    drop sequence if exists progresssession_sequence
-Hibernate: 
-    drop sequence if exists progressunit_sequence
-Hibernate: 
-    drop sequence if exists session_sequence
-Hibernate: 
-    drop sequence if exists sessionans_sequence
-Hibernate: 
-    drop sequence if exists sessiontest_sequence
-Hibernate: 
-    drop sequence if exists unit_sequence
-Hibernate: 
-    drop sequence if exists user_sequence
-Hibernate: 
-    drop sequence if exists userdetail_sequence
-Hibernate: 
-    drop sequence if exists work_sequence
-Hibernate: 
-    create sequence access_sequence start with 1 increment by 1
-Hibernate: 
-    create sequence course_sequence start with 1 increment by 1
-Hibernate: 
-    create sequence module_sequence start with 1 increment by 1
-Hibernate: 
-    create sequence progresssession_sequence start with 1 increment by 1
-Hibernate: 
-    create sequence progressunit_sequence start with 1 increment by 1
-Hibernate: 
-    create sequence session_sequence start with 1 increment by 1
-Hibernate: 
-    create sequence sessionans_sequence start with 1 increment by 1
-Hibernate: 
-    create sequence sessiontest_sequence start with 1 increment by 1
-Hibernate: 
-    create sequence unit_sequence start with 1 increment by 1
-Hibernate: 
-    create sequence user_sequence start with 1 increment by 1
-Hibernate: 
-    create sequence userdetail_sequence start with 1 increment by 1
-Hibernate: 
-    create sequence work_sequence start with 1 increment by 1
-Hibernate: 
-    create table courses (
-        course_id integer not null,
-        title varchar(255) not null,
-        video_url varchar(255),
-        primary key (course_id)
-    )
-Hibernate: 
-    create table modules (
-        course_id integer not null,
-        module_id integer not null,
-        order_number integer not null,
-        title varchar(255) not null,
-        primary key (module_id)
-    )
-Hibernate: 
-    create table relatedworks (
-        module_id integer not null unique,
-        work_id integer not null,
-        form_url varchar(255) not null,
-        title varchar(255) not null,
-        primary key (work_id)
-    )
-Hibernate: 
-    create table sessionanswers (
-        answer_id integer not null,
-        is_correct boolean not null,
-        test_id integer not null,
-        answer_text varchar(255) not null,
-        primary key (answer_id)
-    )
-Hibernate: 
-    create table sessions (
-        order_number integer not null,
-        session_id integer not null,
-        unit_id integer not null,
-        description TEXT,
-        resource_document varchar(255),
-        task_name varchar(255) not null,
-        task_url varchar(255) not null,
-        title varchar(255) not null,
-        video_url varchar(255) not null,
-        primary key (session_id)
-    )
-Hibernate: 
-    create table sessiontests (
-        session_id integer not null unique,
-        test_id integer not null,
-        question_text TEXT not null,
-        primary key (test_id)
-    )
-Hibernate: 
-    create table units (
-        module_id integer not null,
-        order_number integer not null,
-        unit_id integer not null,
-        title varchar(255) not null,
-        video_url varchar(255) not null,
-        primary key (unit_id)
-    )
-Hibernate: 
-    create table usercourseaccess (
-        access_id integer not null,
-        course_id integer not null,
-        user_id integer not null,
-        primary key (access_id)
-    )
-Hibernate: 
-    create table userdetail (
-        birthdate date,
-        details_id integer not null,
-        user_id integer unique,
-        bio TEXT,
-        city varchar(255),
-        country varchar(255),
-        phone_number varchar(255),
-        profilepicture varchar(255),
-        primary key (details_id)
-    )
-Hibernate: 
-    create table userprofiles (
-        user_id integer not null,
-        fullname varchar(50),
-        email varchar(100) not null unique,
-        password_hash varchar(255) not null,
-        primary key (user_id)
-    )
-Hibernate: 
-    create table userprogresssessions (
-        is_completed boolean not null,
-        progress_id integer not null,
-        session_id integer not null,
-        user_id integer not null,
-        primary key (progress_id)
-    )
-Hibernate: 
-    create table userprogressunit (
-        is_completed boolean not null,
-        progress_id integer not null,
-        unit_id integer not null,
-        user_id integer not null,
-        primary key (progress_id)
-    )
-Hibernate: 
-    alter table if exists modules 
-       add constraint FK8qnnp812q1jd38fx7mxrhpw9 
-       foreign key (course_id) 
-       references courses
-Hibernate: 
-    alter table if exists relatedworks 
-       add constraint FK1lupmiqwhregmpv09owoxd35x 
-       foreign key (module_id) 
-       references modules
-Hibernate: 
-    alter table if exists sessionanswers 
-       add constraint FKacyqh85bgd6dsum7ynufogatk 
-       foreign key (test_id) 
-       references sessiontests
-Hibernate: 
-    alter table if exists sessions 
-       add constraint FKr3dhrnvgebjhx0xf5dnqig4iv 
-       foreign key (unit_id) 
-       references units
-Hibernate: 
-    alter table if exists sessiontests 
-       add constraint FKpj0wn0d3w003xwq29ucxfcpci 
-       foreign key (session_id) 
-       references sessions
-Hibernate: 
-    alter table if exists units 
-       add constraint FKbbvsojstiwhfev2tq8knmg6dh 
-       foreign key (module_id) 
-       references modules
-Hibernate: 
-    alter table if exists usercourseaccess 
-       add constraint FKtnu263gg8ta5k2hmf8cctordc 
-       foreign key (course_id) 
-       references courses
-Hibernate: 
-    alter table if exists usercourseaccess 
-       add constraint FKhn1gh982e81usmwpvsb1lmu94 
-       foreign key (user_id) 
-       references userprofiles
-Hibernate: 
-    alter table if exists userdetail 
-       add constraint FKndu78w1fnmxhw4nqnaryxhtpt 
-       foreign key (user_id) 
-       references userprofiles
-Hibernate: 
-    alter table if exists userprogresssessions 
-       add constraint FK5pknth091n8tavo7fn9ysj2vg 
-       foreign key (session_id) 
-       references sessions
-Hibernate: 
-    alter table if exists userprogresssessions 
-       add constraint FKs2fvwunu8l7rul8dty6luxjll 
-       foreign key (user_id) 
-       references userprofiles
-Hibernate: 
-    alter table if exists userprogressunit 
-       add constraint FKhyqo3te18606okxcm1jn33dyp 
-       foreign key (unit_id) 
-       references units
-Hibernate: 
-    alter table if exists userprogressunit 
-       add constraint FKexp6l1w0lj0svsy0nixufg70r 
-       foreign key (user_id) 
-       references userprofiles
-2024-10-30T11:53:16.993-05:00  INFO 20652 --- [WebCoursesBack] [           main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
-2024-10-30T11:53:17.608-05:00  INFO 20652 --- [WebCoursesBack] [           main] o.s.d.j.r.query.QueryEnhancerFactory     : Hibernate is in classpath; If applicable, HQL parser will be used.
-2024-10-30T11:53:19.018-05:00  WARN 20652 --- [WebCoursesBack] [           main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
-2024-10-30T11:53:19.898-05:00  INFO 20652 --- [WebCoursesBack] [           main] c.a.w.WebCoursesBackApplicationTests     : Started WebCoursesBackApplicationTests in 25.289 seconds (process running for 27.175)
+       alter column bio set data type TEXT
+2024-10-30T12:14:45.736-05:00  INFO 18720 --- [WebCoursesBack] [           main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-10-30T12:14:46.497-05:00  INFO 18720 --- [WebCoursesBack] [           main] o.s.d.j.r.query.QueryEnhancerFactory     : Hibernate is in classpath; If applicable, HQL parser will be used.
+2024-10-30T12:14:48.431-05:00  WARN 18720 --- [WebCoursesBack] [           main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-10-30T12:14:49.550-05:00  INFO 18720 --- [WebCoursesBack] [           main] c.a.w.WebCoursesBackApplicationTests     : Started WebCoursesBackApplicationTests in 22.865 seconds (process running for 24.561)
 ]]></system-out>
   </testcase>
 </testsuite>
