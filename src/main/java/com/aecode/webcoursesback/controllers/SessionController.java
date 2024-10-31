@@ -2,6 +2,7 @@ package com.aecode.webcoursesback.controllers;
 
 import com.aecode.webcoursesback.dtos.SessionDTO;
 import com.aecode.webcoursesback.entities.Session;
+import com.aecode.webcoursesback.entities.Unit;
 import com.aecode.webcoursesback.services.ISessionService;
 import com.fasterxml.jackson.databind.ObjectMapper;
 import org.modelmapper.ModelMapper;
@@ -138,9 +139,31 @@ public class SessionController {
                 existingSession.setResourceDocument("/uploads/session/" + originalFilename);
             }
 
-            // Actualizar otros datos de la clase
-            ModelMapper modelMapper = new ModelMapper();
-            modelMapper.map(dto, existingSession);  // Mapear solo los cambios del DTO a la clase existente
+
+            // Actualizar otros datos de la clase solo si no son nulos
+            if (dto.getTitle() != null) {
+                existingSession.setTitle(dto.getTitle());
+            }
+            if (dto.getVideoUrl() != null) {
+                existingSession.setVideoUrl(dto.getVideoUrl());
+            }
+            if (dto.getDescription() != null) {
+                existingSession.setDescription(dto.getDescription());
+            }
+            if (dto.getOrderNumber() != 0) { // Verifica si es diferente de 0 para campos int
+                existingSession.setOrderNumber(dto.getOrderNumber());
+            }
+            if (dto.getTaskName() != null) {
+                existingSession.setTaskName(dto.getTaskName());
+            }
+            if (dto.getTaskUrl() != null) {
+                existingSession.setTaskUrl(dto.getTaskUrl());
+            }
+            if (dto.getUnitId() != 0) {
+                Unit unit = new Unit();
+                unit.setUnitId(dto.getUnitId()); // Suponiendo que tienes un método para obtener la entidad
+                existingSession.setUnit(unit);
+            }
 
             // Guardar los cambios en la base de datos
             cS.insert(existingSession);
