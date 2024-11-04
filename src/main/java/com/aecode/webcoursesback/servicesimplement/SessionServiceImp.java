@@ -43,12 +43,13 @@ public class SessionServiceImp implements ISessionService {
         StringBuilder htmlBuilder = new StringBuilder();
         String[] paragraphs = resourceText.split("\n\n");
 
-        // Construcción del contenido de párrafos con la clase en cada <p>
-        for (int i = 0; i < paragraphs.length; i++) {
-            htmlBuilder.append("<p class=\"parrafo-").append(i + 1).append("\">")
-                    .append(paragraphs[i].trim()).append("</p>");
+        // Construcción del contenido de párrafos con la clase "parrafo" en cada <p>
+        for (String paragraph : paragraphs) {
+            htmlBuilder.append("<p class=\"parrafo\">")
+                    .append(paragraph.trim()).append("</p>");
         }
 
         return htmlBuilder.toString();
     }
+
 }
