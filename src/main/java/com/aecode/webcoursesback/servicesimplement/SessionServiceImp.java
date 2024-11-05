@@ -40,6 +40,11 @@ public class SessionServiceImp implements ISessionService {
 
     @Override
     public String wrapInHtml(String resourceText) {
+        if (resourceText == null) {
+            // Retorna un HTML vacío o un mensaje indicando que no hay contenido
+            return "<p class=\"parrafo\">No hay contenido disponible</p>";
+        }
+
         StringBuilder htmlBuilder = new StringBuilder();
         String[] paragraphs = resourceText.split("\n\n");
 
