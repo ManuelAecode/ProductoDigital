@@ -19,7 +19,7 @@ public class Unit {
     @Column(nullable = false, length = 255)
     private String title;
 
-    @Column(nullable = false, length = 255)
+    @Column(length = 255)
     private String videoUrl;
 
     @Column(nullable = false)

@@ -17,7 +17,7 @@ public class Session {
     @Column(nullable = false, length = 255)
     private String title;
 
-    @Column(nullable = false, length = 255)
+    @Column(length = 255)
     private String videoUrl;
 
     @Column(columnDefinition = "TEXT")
@@ -32,10 +32,10 @@ public class Session {
     @OneToOne(mappedBy = "session", cascade = CascadeType.ALL, orphanRemoval = true)
     private SessionTest sessiontests;
 
-    @Column(nullable = false, length = 255)
+    @Column(length = 255)
     private String taskName;
 
-    @Column(nullable = false, length = 255)
+    @Column(length = 255)
     private String taskUrl;
 
     public Session() {
